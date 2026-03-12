@@ -1,4 +1,4 @@
--- sample data for repository testing
+﻿-- sample data for repository testing
 
 -- types
 INSERT INTO "type" (id, name, description, table_name) VALUES

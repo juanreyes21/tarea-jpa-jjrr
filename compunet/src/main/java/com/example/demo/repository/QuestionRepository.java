@@ -9,7 +9,5 @@ public interface QuestionRepository extends JpaRepository<Question, Integer> {
 
     List<Question> findBySectionSurveyId(Integer surveyId);
 
-    List<Question> findByTypeName(String name);
-
     List<Question> findByTypeNameIgnoreCase(String name);
 }
